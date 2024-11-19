@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header nav{
+    width: 100%;
+    margin: 0;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: chocolate;
+}
+nav .logo{
+    width: 30%;
+    height: 100%;
+    align-items: center;
+}
+nav .logo p{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+nav .nav_bar{
+    width: 69%;
+    height: 100%;
+}
+nav .nav_bar ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+}
+li{
+    align-items: center;
+    list-style-type: none;
+    margin: 10px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color: chocolate;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+section .main{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-image: url(mRnrlzqZhNlyOTCzGFYvvKhWST8B2lPNLqvqeizQVRY.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    margin-bottom: 20px;
+}
+.main .Promotion{
+    position:absolute ;
+    left: 7cm;
+    top: 5cm;
+}
+.Promotion h1{
+    font-size: 1cm;
+    padding: 10px;
+    color: chocolate;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Promotion p{
+    font-size: 0.5cm;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+footer{
+    width: 100%;
+    height: max-content;
+    background-color: chocolate;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white
+}
+footer .Icon{
+    width: 30%;
+    height: 100%;
+    padding: 50px 0;
+    align-content: center;
+}
+footer .Content{
+    width: 30%;
+    height: 30%;
+    padding: 50px 0;
+    align-content: center;
+}
+footer .page{
+    width: 30%;
+    height: 30%;
+    padding: 50px 0;
+    align-content: center;
+}
+.contact{
+    margin-bottom: 10px;
+}
+.contact h3{
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.contact p{
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1020px) {
+    section .main{
+        width: 100%;
+        height: 400px;
+        position: relative;
+        background-image: url(mRnrlzqZhNlyOTCzGFYvvKhWST8B2lPNLqvqeizQVRY.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: local;
+        margin-bottom: 20px;
+    }
+    .content{
+        width: 100%;
+        height: 60%;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 13px;
+    }
+    .A-propos p{
+        font-size: 15px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
+@media screen and (max-width: 820px) {
+    nav .nav_bar ul li{
+        display: none;
+    }
+    section .main{
+        width: 100%;
+        height: 300px;
+        position: relative;
+        background-image: url(mRnrlzqZhNlyOTCzGFYvvKhWST8B2lPNLqvqeizQVRY.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: local;
+        margin-bottom: 20px;
+    }
+    .main .Promotion{
+        position: absolute;
+        left: 3cm;
+        top: 2cm;
+    }
+    .Pays .Dubay{
+        width: 100%;
+        height: 300px;
+        background-color: chocolate;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .Pays .Chine{
+        width: 100%;
+        height: 300px;
+        background-color: chocolate;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    .Pays .Etat-unis{
+        width: 100%;
+        height: 300px;
+        background-color: chocolate;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    .Pays .Pay-bas{
+        width: 100%;
+        height: 300px;
+        background-color: chocolate;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    .Pays .France{
+        width: 100%;
+        height: 300px;
+        background-color: chocolate;
+        border-radius: 20px;
+        margin: 10px;
+    }
+    .Pays .Spain{
+        width: 100%;
+        height: 300px;
+        background-color: chocolate;
+        border-radius: 20px;
+        margin: 10px;
+    }
+    .content{
+        width: 100%;
+        height: 60%;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 14px;
+    }
+    .A-propos p{
+        font-size: 10px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    footer .page{
+        width: 30%;
+        height: 30%;
+        padding: 30px 0;
+        align-content: center;
+    }
+}
